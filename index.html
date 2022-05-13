@@ -13,13 +13,28 @@
 
     <!-- CSS don't touch -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- JS don't touch -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/assets/js/fivemGetPlayers.js"></script>
 </head>
 
 <body>
     <img src="/assets/img/logo.png" alt="" Your server logo>
+    <div class="title">
+        <h1>Your server name</h1>
+        <p>Find all the information about our server on our Discord!</p>
+    </div>
     <div class="container">
-        <h1>Your server name</h2>
-
+        <script>
+            $(function() {
+                GetFiveMPlayers('k67e76', document.querySelector('#player-element')); //Replace "k67e76" to your cfx server id (Exemple : cfx.re/join/k67e76)
+            });
+        </script>
+        <button class="Button"><span id='player-element'></span> player(s) online</button>
+        <button class="Button">Discord</button>
+        <button class="Button">Tiktok</button>
+        <button class="Button">Twitter</button>
     </div>
 </body>
 
