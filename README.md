@@ -17,7 +17,7 @@ Change button color: Go to /assets/css/style.css and edit line 20, 21, 30 and 31
 ```
 
 ## Previews
-![Previews 1](https://ibb.co/t41XHxR)
+![Previews 1](https://i.ibb.co/zrtJm7d/Capture-d-e-cran-2022-05-17-a-11-35-23.png)
 
 ## My links
 
