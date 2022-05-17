@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
@@ -11,79 +11,22 @@ body {
     background-color: rgb(36, 36, 36);
 }
 
-img {
-    height: 200px;
-    display: block;
-    margin-top: 124px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.title h1 {
-    text-align: center;
+h1 {
     font-family: Poppins;
-    font-size: 2.7em;
-    line-height: 1;
-    margin-top: 45px;
-    color: whitesmoke;
 }
 
-.title p {
-    color: whitesmoke;
-    font-family: Poppins;
-    text-align: center;
-    font-size: 1.05em;
+.btn-primary {
+    color: #fff;
+    background-color: #8606a5;
+    border-color: #8606a5;
 }
 
-.container {
-    float: left;
-    position: absolute;
-    left: 50%;
-    top: 70%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.Button {
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    font-size: 16px;
-    border-radius: 50px;
-    transition: background-color 1s;
-}
-
-.Button:hover {
-    background-color: purple;
-}
-
-@media only screen and (max-width: 400px) {
-    img {
-        height: 200px;
-        display: block;
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .title h1 {
-        text-align: center;
-        font-family: Poppins;
-        font-size: 2.5em;
-        line-height: 1;
-        margin-top: 45px;
-        color: whitesmoke;
-    }
-    .title p {
-        color: whitesmoke;
-        font-family: Poppins;
-        text-align: center;
-        font-size: 1em;
-    }
-    .container {
-        float: left;
-        position: absolute;
-        left: 50%;
-        top: 83%;
-    }
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #0a007b;
+    border-color: #0a007b;
 }
