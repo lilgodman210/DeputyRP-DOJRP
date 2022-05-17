@@ -17,7 +17,7 @@ Change button color: Go to /assets/css/style.css and edit line 20, 21, 30 and 31
 ```
 
 ## Previews
-![Previews 1](https://cdn.discordapp.com/attachments/961299529058103366/967421436987859014/Capture_decran_2022-04-23_154444.png)
+![Previews 1](https://ibb.co/t41XHxR)
 
 ## My links
 
